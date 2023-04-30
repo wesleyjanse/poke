@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   modules: [
     ["@nuxtjs/eslint-module", { lintOnStart: false }],
     "@nuxtjs/tailwindcss",
+    "nuxt-typed-router",
+    "nuxt-icon",
   ],
   components: [
     {
@@ -11,4 +13,11 @@ export default defineNuxtConfig({
       global: true,
     },
   ],
+  app: {
+    head: {
+      bodyAttrs: {
+        class: "text-primary",
+      },
+    },
+  },
 });
