@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: [
+    ["@nuxtjs/eslint-module", { lintOnStart: false }],
+    "@nuxtjs/tailwindcss",
+  ],
   components: [
     {
       path: "~/components",
