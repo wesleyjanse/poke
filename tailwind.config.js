@@ -8,14 +8,16 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    colors: {
-      primary: "#1F2029",
-    },
     fontSize: {
       small: ["12px", "14px"],
       base: ["15px", "22px"],
       large: ["17px", "20px"],
       title: ["34px", "41px"],
+    },
+    extend: {
+      colors: {
+        primary: "#1F2029",
+      },
     },
   },
 };
