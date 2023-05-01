@@ -17,6 +17,15 @@ module.exports = {
     extend: {
       colors: {
         primary: "#1F2029",
+        normal: "#A3ACAE",
+        fire: "#FD7D25",
+        grass: "#95C24D",
+        ghost: "#7B62A3",
+        water: "#4592C3",
+        poision: "#4592C3",
+      },
+      dropShadow: {
+        light: "0px 15px 15px rgba(0, 0, 0, 0.04);",
       },
     },
   },

@@ -1,7 +1,7 @@
 <template>
   <label
     :htmlFor="$props.name || $props.id"
-    class="relative w-full text-slate-400 focus-within:text-primary block"
+    class="relative w-full text-gray-500 focus-within:text-primary block"
   >
     <Icon
       name="tabler:search"
@@ -13,7 +13,7 @@
       :name="$props.name || $props.id"
       :type="$props.type"
       :placeholder="$props.placeholder"
-      class="bg-slate-100 outline-0 focus-within:ring-2 ring-primary placeholder-slate-400 w-full h-full p-2 pl-8 rounded-[10px]"
+      class="bg-[#EFF0F1] outline-0 focus-within:ring-2 ring-primary placeholder-gray-500 w-full h-full p-2 pl-8 rounded-[10px]"
     />
   </label>
 </template>

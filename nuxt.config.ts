@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "nuxt-typed-router",
     "nuxt-icon",
+    "@nuxt/image-edge",
   ],
   components: [
     {
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: "text-primary",
+        class: "text-primary bg-[#F9F9F9]",
       },
     },
   },
