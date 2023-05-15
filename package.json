@@ -30,6 +30,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@nuxt/image": "^0.7.1"
+    "@nuxt/image": "^0.7.1",
+    "@pinia/nuxt": "^0.4.9"
   }
 }
